@@ -11,7 +11,7 @@ import os
 #FASTA = sys.argv[2]
 #Partitioned_file = sys.argv[3]
 
-fastafile = open("aligned_dates.fasta", "r+")
+fastafile = open("aligned.fasta", "r+")
 outfile = open("FASTA.txt", "w")
 for eachline in fastafile.readlines():
         if re.search(r">",eachline):
